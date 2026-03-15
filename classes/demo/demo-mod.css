@@ -1,0 +1,104 @@
+/* Color Branding */
+/*
+*
+*	Layout
+*
+*/
+* {
+  box-sizing: border-box;
+}
+.max-width-wrap {
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*
+*
+*	General
+*
+*/
+html {
+  font-size: 14px;
+}
+html body {
+  font-size: 1.2rem;
+  line-height: 1.618;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #e2e3eb;
+  user-select: none;
+  overflow-y: scroll;
+}
+html body .demo-mod {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+/*
+*
+*	Buttons
+*
+*/
+.button-type-1:hover {
+  cursor: pointer;
+}
+.button-type-1 {
+  padding: 15px;
+  background-color: #011325;
+  border-top: medium solid #2a537a;
+  border-left: none;
+  border-right: none;
+  border-bottom: thin solid #000;
+  color: #e2e3eb;
+  transition: background-color 0.15s;
+  user-select: none;
+  box-shadow: 0px 0px 5px #2a537a inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-type-1:hover {
+  background-color: #2a537a;
+}
+.button-type-1:active {
+  background-color: #000812;
+}
+/*
+*
+*	Fonts
+*
+*/
+* {
+  /* Sorted highest priority to lowest. System availability is checked per character of text. */
+  font-family: "Roboto", "Helvetica", "Verdana", "Arial", "Tahoma", "system-ui", "Georgia", sans-serif;
+}
+h1 {
+  font-size: calc(1.2rem * 1.15 * 1.15 * 1.15 * 1.15);
+}
+h2 {
+  font-size: calc(1.2rem * 1.15 * 1.15 * 1.15);
+}
+h3 {
+  font-size: calc(1.2rem * 1.15 * 1.15);
+}
+h4 {
+  font-size: calc(1.2rem * 1.15);
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: calc(1.2rem / 1.15);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: calc(1.618 * 1.5rem);
+}

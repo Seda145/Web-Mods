@@ -1,0 +1,18 @@
+/* Color Branding */
+.navigation-panel-mod {
+  display: flex;
+}
+.navigation-panel-mod .navigation-panel-button-wrap {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.navigation-panel-mod .navigation-panel-button-wrap .button-type-1 {
+  flex: 1;
+}
+.navigation-panel-mod .navigation-panel-button-wrap .button-type-1 p {
+  margin: 0;
+}

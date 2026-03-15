@@ -1,0 +1,18 @@
+/* Color Branding */
+.page-injector-mod {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  opacity: 0;
+  transition: none;
+  flex-direction: column;
+}
+.page-injector-mod.page-injector-mod-fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+.page-injector-mod > * {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}

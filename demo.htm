@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<!-- Setting black body background here prevents white flicker on load. -->
+	<body style="background-color:black;">
+		<div data-component="app"></div>
+
+		<!-- Load default style early, to be overriden. -->
+		<link rel="stylesheet" href="./classes/demo/demo-mod.css">
+
+		<!-- -->
+		<!-- Load globally used independend utilities. -->
+		<!-- -->
+
+		<script src="./classes/demo/utils/ui-utils.js"></script>
+
+		<!-- -->
+		<!-- Mod system -->
+		<!-- -->
+
+		<!-- Common Mods -->
+
+		<script src="./classes/mod.js"></script>
+
+		<script src="./classes/pre-loader-file-type.js"></script>
+
+		<script src="./classes/pre-loader-mod.js"></script>
+
+		<script src="./classes/interval-mod.js"></script>
+		
+		<script src="./classes/timeout-mod.js"></script>
+
+		<script src="./classes/animation-frame-mod.js"></script>
+
+		<script src="./classes/element-mod.js"></script>
+
+		<script src="./classes/dispatcher-mod.js"></script>
+
+		<script src="./classes/listener-mod.js"></script>
+
+		<script src="./classes/registry-mod.js"></script>
+
+		<!-- Demo Mods -->
+
+		<link rel="stylesheet" href="./classes/demo/header-mod.css">
+		<script src="./classes/demo/header-mod.js"></script>
+
+		<link rel="stylesheet" href="./classes/demo/footer-mod.css">
+		<script src="./classes/demo/footer-mod.js"></script>
+
+		<!-- Demo Page Mods -->
+
+		<script src="./classes/demo/demo-page-mod.js"></script>
+		
+		<script src="./classes/demo/demo-page-2-mod.js"></script>
+
+		<!-- -->
+		<!-- Page Injector Mod -->
+		<!-- -->
+
+		<link rel="stylesheet" href="./classes/demo/page-injector-mod.css">
+		<script src="./classes/demo/page-injector-mod.js"></script>
+
+		<link rel="stylesheet" href="./classes/demo/navigation-panel-mod.css">
+		<script src="./classes/demo/navigation-panel-mod.js"></script>
+
+		<!-- -->
+		<!-- Run app -->
+		<!-- -->
+
+		<!-- Already early loaded the app CSS so it will be overridden. -->
+		<script src="./classes/demo/demo-mod.js"></script>
+		<script>
+			let app = new DemoMod();
+			app.create();
+		</script>
+	</body>
+</html>

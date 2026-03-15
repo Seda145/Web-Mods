@@ -1,0 +1,25 @@
+@import 'var.less';
+
+
+.page-injector-mod {
+    display: flex;
+    flex-direction: column;
+    // Take full available height between header and footer.
+    flex: 1;
+    // Guard against content pushing main horizontally beyond (usually extremely tiny) screens, which deforms space on navigation menu and header.
+    overflow: hidden;
+    opacity: 0;
+    transition: none;
+    flex-direction: column;
+
+    &.page-injector-mod-fade-in {
+        opacity: 1;
+        transition: opacity 0.5s ease-in;
+    }
+
+    > * {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+}
