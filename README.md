@@ -1,4 +1,5 @@
-############ MEDIA: Banner_*******.png
+<img width="1000" height="300" alt="Banner_Web_mods" src="https://github.com/user-attachments/assets/37c61bd0-96df-48bd-989e-1e6aede84abd" />
+
 
 # Readme
 
@@ -65,9 +66,11 @@ Or, look at media below.
 
 #### Pareidolia app structure:
 
-############ MEDIA: Preview_Web_Mods_App_Code_Structure.jpg
+<img width="818" height="757" alt="Preview_Web_Mods_App_Code_Structure" src="https://github.com/user-attachments/assets/83f05973-3f14-466f-9f40-fafcf588599e" />
 
-############ MEDIA: Preview_Web_Mods_App_Structure.jpg
+
+<img width="1255" height="677" alt="Preview_Web_Mods_App_Structure" src="https://github.com/user-attachments/assets/0b156d0a-d951-4045-9f2b-69e38b10bb1f" />
+
 
 ## -- How do I get started? --
 
